@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Modules\Networks\SocketMessageManger.cs" />
     <Compile Include="Assets\Scripts\Common\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Modules\Character\CharacterStateManager.cs" />
     <Compile Include="Assets\Scripts\Common\Stack\LimitedStack.cs" />
     <Compile Include="Assets\Scripts\Modules\Login\LoginHandleManager.cs" />
     <Compile Include="Assets\Scripts\PBMsg\Mod.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\Common\UI\UIInfoSettingManager.cs" />
     <Compile Include="Assets\Scripts\PBMsg\LoginMod.cs" />
     <Compile Include="Assets\Scripts\Common\UI\UIInfoSetting.cs" />
+    <Compile Include="Assets\Scripts\Modules\Character\CharacterController.cs" />
     <Compile Include="Assets\Scripts\PBMsg\LoginMod.Serializer.cs" />
     <Compile Include="Assets\Scripts\Common\UI\PanelInfo.cs" />
     <Compile Include="Assets\Scripts\PBMsg\ProtocolParser.cs" />
@@ -90,6 +92,8 @@
     <Compile Include="Assets\Scripts\Common\Define\IModuleManager.cs" />
     <Compile Include="Assets\Scripts\Modules\Networks\ClientInternetManger.cs" />
     <Compile Include="Assets\Scripts\Modules\Networks\CodingTool.cs" />
+    <Compile Include="Assets\Scripts\Common\Define\InputSetting.cs" />
+    <Compile Include="Assets\Scripts\Common\Define\TagDefine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
